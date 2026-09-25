@@ -1,0 +1,19 @@
+1790353689930	geckodriver	INFO	Listening on 127.0.0.1:49677
+1790353689999	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" "/Applications/Firefox. ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/7p/yx5gvr0s39b9w3w67c31zz780000gn/T/rust_mozprofileErwkFO"
+1790353690223	Marionette	INFO	Marionette enabled
+2026-09-25 16:28:10.253 Firefox GPU Helper[2094:50827] Failure on line 688 in function id scheduleApplicationNotification(LSNotificationCode, NSWorkspaceNotificationCenter *): noErr == _LSModifyNotification(notificationID, 1, &code, 0, NULL, NULL, NULL)
+2026-09-25 16:28:10.297 Firefox GPU Helper[2094:50827] Error received in message reply handler: Connection invalid
+2026-09-25 16:28:10.297 Firefox GPU Helper[2094:50842] Connection Invalid error for service com.apple.hiservices-xpcservice.
+1790353690496	Marionette	INFO	Listening on port 49690
+WebDriver BiDi listening on ws://127.0.0.1:49678
+Read port: 49690
+1790353690538	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+console.error: "Experiment desktop-release-rollout-show-relay-to-all-browsers-next-sign-up-modal-cta has unknown featureId: email-autocomplete-relay"
+console.error: "Experiment visual-card-updates has unknown featureId: newtabRefinedCardsLayout"
+console.error: "Experiment enable-nimbus-unenrollment-synchronization has unknown featureId: nimbusStore"
+console.error: "Experiment private-window-visual-refresh-design-change-only has unknown featureId: feltPrivacy"
+1790353692934	webdriver::server	INFO	Shutting down
+1790353692934	Marionette	INFO	Stopped listening on port 49690
+JavaScript error: https://s3-eu-west-1.amazonaws.com/static.wizrocket.com/js/sw_webpush.js, line 1: NetworkError: A network error occurred.
+JavaScript error: resource://gre/modules/PrivateBrowsingUtils.sys.mjs, line 50: TypeError: can't access property "QueryInterface", aWindow.docShell is null

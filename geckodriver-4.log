@@ -1,0 +1,21 @@
+1790353730467	geckodriver	INFO	Listening on 127.0.0.1:49768
+1790353730482	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" "/Applications/Firefox. ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/7p/yx5gvr0s39b9w3w67c31zz780000gn/T/rust_mozprofile1ReX1G"
+1790353730684	Marionette	INFO	Marionette enabled
+2026-09-25 16:28:50.711 Firefox GPU Helper[2260:52170] Failure on line 688 in function id scheduleApplicationNotification(LSNotificationCode, NSWorkspaceNotificationCenter *): noErr == _LSModifyNotification(notificationID, 1, &code, 0, NULL, NULL, NULL)
+2026-09-25 16:28:50.756 Firefox GPU Helper[2260:52182] Connection Invalid error for service com.apple.hiservices-xpcservice.
+2026-09-25 16:28:50.756 Firefox GPU Helper[2260:52170] Error received in message reply handler: Connection invalid
+1790353730950	Marionette	INFO	Listening on port 49777
+WebDriver BiDi listening on ws://127.0.0.1:49769
+Read port: 49777
+1790353731008	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+console.error: "Experiment desktop-release-rollout-show-relay-to-all-browsers-next-sign-up-modal-cta has unknown featureId: email-autocomplete-relay"
+console.error: "Experiment visual-card-updates has unknown featureId: newtabRefinedCardsLayout"
+console.error: "Experiment enable-nimbus-unenrollment-synchronization has unknown featureId: nimbusStore"
+console.error: "Experiment private-window-visual-refresh-design-change-only has unknown featureId: feltPrivacy"
+1790353732841	webdriver::server	INFO	Shutting down
+1790353732841	Marionette	INFO	Stopped listening on port 49777
+JavaScript warning: https://generic-web-assets-in.bmscdn.com/public/build/chunks/js/vendor-secondary.b4572949.js, line 1: Script terminated by timeout at:
+5413/ao/r<@https://generic-web-assets-in.bmscdn.com/public/build/chunks/js/vendor-secondary.b4572949.js:1:163818
+
+JavaScript error: resource://gre/modules/PrivateBrowsingUtils.sys.mjs, line 50: TypeError: can't access property "QueryInterface", aWindow.docShell is null

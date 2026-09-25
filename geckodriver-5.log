@@ -1,0 +1,35 @@
+1790353814364	geckodriver	INFO	Listening on 127.0.0.1:49835
+1790353814379	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" "/Applications/Firefox. ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/7p/yx5gvr0s39b9w3w67c31zz780000gn/T/rust_mozprofilemtGV2l"
+1790353814563	Marionette	INFO	Marionette enabled
+2026-09-25 16:30:14.595 Firefox GPU Helper[2584:54190] Failure on line 688 in function id scheduleApplicationNotification(LSNotificationCode, NSWorkspaceNotificationCenter *): noErr == _LSModifyNotification(notificationID, 1, &code, 0, NULL, NULL, NULL)
+2026-09-25 16:30:14.642 Firefox GPU Helper[2584:54208] Connection Invalid error for service com.apple.hiservices-xpcservice.
+2026-09-25 16:30:14.642 Firefox GPU Helper[2584:54190] Error received in message reply handler: Connection invalid
+1790353814839	Marionette	INFO	Listening on port 49844
+WebDriver BiDi listening on ws://127.0.0.1:49836
+Read port: 49844
+1790353814908	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+console.error: "Experiment desktop-release-rollout-show-relay-to-all-browsers-next-sign-up-modal-cta has unknown featureId: email-autocomplete-relay"
+console.error: "Experiment visual-card-updates has unknown featureId: newtabRefinedCardsLayout"
+console.error: "Experiment enable-nimbus-unenrollment-synchronization has unknown featureId: nimbusStore"
+console.error: "Experiment private-window-visual-refresh-design-change-only has unknown featureId: feltPrivacy"
+1790353817186	webdriver::server	INFO	Shutting down
+1790353817186	Marionette	INFO	Stopped listening on port 49844
+JavaScript warning: https://generic-web-assets-in.bmscdn.com/public/build/chunks/js/vendor-primary.7ef97d4e.js, line 1: Script terminated by timeout at:
+ze@https://generic-web-assets-in.bmscdn.com/public/build/chunks/js/vendor-primary.7ef97d4e.js:1:241524
+ze@https://generic-web-assets-in.bmscdn.com/public/build/chunks/js/vendor-primary.7ef97d4e.js:1:241653
+38743/e.prototype.generateAndInjectStyles@https://generic-web-assets-in.bmscdn.com/public/build/chunks/js/vendor-primary.7ef97d4e.js:1:242743
+38743/He/T/k<@https://generic-web-assets-in.bmscdn.com/public/build/chunks/js/vendor-primary.7ef97d4e.js:1:244855
+38743/He/T/<@https://generic-web-assets-in.bmscdn.com/public/build/chunks/js/vendor-primary.7ef97d4e.js:1:244904
+T@https://generic-web-assets-in.bmscdn.com/public/build/chunks/js/vendor-primary.7ef97d4e.js:1:245053
+yi@https://generic-web-assets-in.bmscdn.com/public/build/chunks/js/vendor-primary.7ef97d4e.js:1:156475
+Ss@https://generic-web-assets-in.bmscdn.com/public/build/chunks/js/vendor-primary.7ef97d4e.js:1:168843
+ku@https://generic-web-assets-in.bmscdn.com/public/build/chunks/js/vendor-primary.7ef97d4e.js:1:217390
+vl@https://generic-web-assets-in.bmscdn.com/public/build/chunks/js/vendor-primary.7ef97d4e.js:1:204585
+yl@https://generic-web-assets-in.bmscdn.com/public/build/chunks/js/vendor-primary.7ef97d4e.js:1:204513
+ml@https://generic-web-assets-in.bmscdn.com/public/build/chunks/js/vendor-primary.7ef97d4e.js:1:204374
+sl@https://generic-web-assets-in.bmscdn.com/public/build/chunks/js/vendor-primary.7ef97d4e.js:1:201538
+Bo@https://generic-web-assets-in.bmscdn.com/public/build/chunks/js/vendor-primary.7ef97d4e.js:1:142853
+22551/nl/<@https://generic-web-assets-in.bmscdn.com/public/build/chunks/js/vendor-primary.7ef97d4e.js:1:199161
+
+JavaScript error: resource://gre/modules/PrivateBrowsingUtils.sys.mjs, line 50: TypeError: can't access property "QueryInterface", aWindow.docShell is null

@@ -1,0 +1,26 @@
+1790356422380	geckodriver	INFO	Listening on 127.0.0.1:51116
+1790356422395	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" "/Applications/Firefox. ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/7p/yx5gvr0s39b9w3w67c31zz780000gn/T/rust_mozprofileyh4gBO"
+1790356422605	Marionette	INFO	Marionette enabled
+2026-09-25 17:13:42.634 Firefox GPU Helper[6041:98905] Failure on line 688 in function id scheduleApplicationNotification(LSNotificationCode, NSWorkspaceNotificationCenter *): noErr == _LSModifyNotification(notificationID, 1, &code, 0, NULL, NULL, NULL)
+2026-09-25 17:13:42.679 Firefox GPU Helper[6041:98905] Error received in message reply handler: Connection invalid
+2026-09-25 17:13:42.679 Firefox GPU Helper[6041:98921] Connection Invalid error for service com.apple.hiservices-xpcservice.
+1790356422870	Marionette	INFO	Listening on port 51123
+WebDriver BiDi listening on ws://127.0.0.1:51117
+Read port: 51123
+1790356422930	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+console.error: "Experiment desktop-release-rollout-show-relay-to-all-browsers-next-sign-up-modal-cta has unknown featureId: email-autocomplete-relay"
+console.error: "Experiment visual-card-updates has unknown featureId: newtabRefinedCardsLayout"
+console.error: "Experiment enable-nimbus-unenrollment-synchronization has unknown featureId: nimbusStore"
+console.error: "Experiment private-window-visual-refresh-design-change-only has unknown featureId: feltPrivacy"
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.saucedemo.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.saucedemo.com."
+console.error: "Experiment desktop-release-rollout-show-relay-to-all-browsers-next-sign-up-modal-cta has unknown featureId: email-autocomplete-relay"
+console.error: "Experiment visual-card-updates has unknown featureId: newtabRefinedCardsLayout"
+console.error: "Experiment enable-nimbus-unenrollment-synchronization has unknown featureId: nimbusStore"
+console.error: "Experiment private-window-visual-refresh-design-change-only has unknown featureId: feltPrivacy"
+1790356479491	webdriver::server	INFO	Shutting down
+1790356479492	Marionette	INFO	Stopped listening on port 51123
+console.error: "failed to cleanup Glean crash pings: Error: Phase \"profile-before-change\" is finished, it is too late to register completion condition \"CrashManager: killing ping cleanup process\""
+JavaScript error: resource://gre/modules/PrivateBrowsingUtils.sys.mjs, line 50: TypeError: can't access property "QueryInterface", aWindow.docShell is null
+[WARN  glean_core::upload] Attempted to enqueue a duplicate ping 2f71183d-f477-452c-8deb-59e421d28ebe at /submit/firefox-crashreporter/deletion-request/1/2f71183d-f477-452c-8deb-59e421d28ebe.
