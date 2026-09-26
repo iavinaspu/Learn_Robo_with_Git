@@ -1,0 +1,18 @@
+1790416459732	geckodriver	INFO	Listening on 127.0.0.1:49958
+1790416459747	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" "/Applications/Firefox. ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/7p/yx5gvr0s39b9w3w67c31zz780000gn/T/rust_mozprofile13JEgu"
+1790416459964	Marionette	INFO	Marionette enabled
+2026-09-26 09:54:19.994 Firefox GPU Helper[7024:58245] Failure on line 688 in function id scheduleApplicationNotification(LSNotificationCode, NSWorkspaceNotificationCenter *): noErr == _LSModifyNotification(notificationID, 1, &code, 0, NULL, NULL, NULL)
+2026-09-26 09:54:20.039 Firefox GPU Helper[7024:58260] Connection Invalid error for service com.apple.hiservices-xpcservice.
+2026-09-26 09:54:20.039 Firefox GPU Helper[7024:58245] Error received in message reply handler: Connection invalid
+1790416460232	Marionette	INFO	Listening on port 49965
+WebDriver BiDi listening on ws://127.0.0.1:49959
+Read port: 49965
+1790416460275	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+console.error: "Experiment desktop-release-rollout-show-relay-to-all-browsers-next-sign-up-modal-cta has unknown featureId: email-autocomplete-relay"
+console.error: "Experiment visual-card-updates has unknown featureId: newtabRefinedCardsLayout"
+console.error: "Experiment enable-nimbus-unenrollment-synchronization has unknown featureId: nimbusStore"
+console.error: "Experiment private-window-visual-refresh-design-change-only has unknown featureId: feltPrivacy"
+1790416471767	Marionette	INFO	Stopped listening on port 49965
+JavaScript error: resource://gre/modules/PrivateBrowsingUtils.sys.mjs, line 50: TypeError: can't access property "QueryInterface", aWindow.docShell is null
+1790416472027	webdriver::server	INFO	Shutting down
